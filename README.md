@@ -16,14 +16,23 @@ All code is written with reproducibility and defensive programming in mind.
 ## Project Structure
 
 EsthevaoMarttioly_PSet2/
+
 ├── code/
+
 ├── output/
+
 ├── renv/                             # R environment files
+
 │   ├── library/ 
+
 │   ├── activate.R 
+
 │   └── settings.json 
+
 ├── EsthevaoMarttioly_PSet2.Rproj     # R project file
+
 ├── renv.lock                         # R environment lock file
+
 └── README.md
 
 ## Computational Environment
