@@ -16,39 +16,24 @@ All code is written with reproducibility and defensive programming in mind.
 ## Project Structure
 
 EsthevaoMarttioly_PSet2/
+├── code/
+├── output/
+├── renv/                             # R environment files
+│   ├── library/ 
+│   ├── activate.R 
+│   └── settings.json 
+├── EsthevaoMarttioly_PSet2.Rproj     # R project file
+├── renv.lock                         # R environment lock file
+└── README.md
 
-output/
-
-renv/
-
-.RData
-
-.Rhistory
-
-.Rprofile
-
-EsthevaoMarttioly_PSet2.R
-
-EsthevaoMarttioly_PSet2.Rproj
-
-EsthevaoMarttioly_PSet2.pdf
-
-README.md
-
-## Reproducibility
+## Computational Environment
 
 Certificate yourself that you open directly the .Rproj file.
 
 To reproduce the environment:
 renv::restore()
 
-It was built in RStudio Version 2026.01.1+403 and R Version R-4.5.2-win.
-
-If needed, you can install packages using:
-
-install.packages(c(
-"tibble","tidyverse","ggplot2","pracma","stargazer"
-))
+The analysis was conducted using R version 4.5.2 (2026-03-10) on a Windows 11 system. All the required R packages and their versions are listed in the renv environments file located in the `renv/` directory.
 
 ## Running the project
 
@@ -58,9 +43,9 @@ To reproduce the analysis:
 * Restore package versions: renv::restore()
 * Run the script: EsthevaoMarttioly_PSet2.R
 * Output: The script generates the following figures in the output/ folder:
-  * p2_function_g.pdf
-  * p2_lifeexp_interp.pdf
-  * p2_pareto_pdf.pdf
+  * p2_function_g.png
+  * p2_lifeexp_interp.png
+  * p2_pareto_pdf.png
 
 
 
